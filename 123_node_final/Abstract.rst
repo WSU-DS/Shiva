@@ -1,3 +1,6 @@
+#Abstract: 
+
+
 Owing to the increased number of natural disasters,
 ensuring a resilient operation of power distribution system is
 of paramount importance. In this paper, an advanced feeder
@@ -15,3 +18,5 @@ grid’s connectivity and operational constraints. The framework
 in tested using IEEE 123-node feeder with 5 DERs supplying for
 9 critical loads. The simulation results validate the effectiveness
 of our proposed strategy in maximizing restoration availability
+
+Refer to the paper: https://ieeexplore.ieee.org/document/8274597/
