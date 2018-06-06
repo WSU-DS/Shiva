@@ -8,9 +8,13 @@ MATLAB can be linked with CPLEX by simply following the steps given below in MAT
 1. Contains header m files, parsed p files and mex files for the CPLEX class and toolbox. 
 
     addpath (‘CPLEX install dir\cplex\matlab\x64_win64’)
+    
     savepath
+    
+    
     
 2. Contains MATLAB examples for the CPLEX API utilization.
 
     addpath (‘CPLEX install dir\cplex\examples\src\matlab’)
+    
     savepath
