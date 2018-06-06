@@ -1,6 +1,9 @@
-.. _RunExamples:
+.. role:: small
 
-Abstract
+Inline Markup
+-------------
+
+Inline markup allows words and phrases within text to have character styles (like italics and boldface) and functionality (like hyperlinks).
 
 Owing to the increased number of natural disasters,
 ensuring a resilient operation of power distribution system is
