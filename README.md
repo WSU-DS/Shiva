@@ -6,8 +6,11 @@ Most of the scripts are written in MATLAB 2016a and optimization requires MATLAB
 
 MATLAB can be linked with CPLEX by simply following the steps given below in MATLAB command window:
 1. Contains header m files, parsed p files and mex files for the CPLEX class and toolbox. 
-    addpath (‘<CPLEX install dir>\cplex\matlab\x64_win64’)
+
+    addpath (‘CPLEX install dir\cplex\matlab\x64_win64’)
     savepath
+    
 2. Contains MATLAB examples for the CPLEX API utilization.
-    addpath (‘<CPLEX install dir>\cplex\examples\src\matlab’)
+
+    addpath (‘CPLEX install dir\cplex\examples\src\matlab’)
     savepath
