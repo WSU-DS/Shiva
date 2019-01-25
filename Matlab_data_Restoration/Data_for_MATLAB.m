@@ -26,7 +26,6 @@ clc
 %% 
 %% 
 load lines
-fid1   = fopen('bus_coor.txt');
 fid2 = fopen('from.txt');
 fr=importdata('from.txt');
 fid3 = fopen('to.txt');
