@@ -18,3 +18,8 @@ MATLAB can be linked with CPLEX by simply following the steps given below in MAT
     addpath (‘CPLEX install dir\cplex\examples\src\matlab’)
     
     savepath
+    
+# IEEE 8500-Node Feeder
+
+This code and attached files is about extracting the parameters for IEEE 8500 node test case. Looking into Excel files with line.dss and bus_coordinate, we extract the information to be used in graph theory related applications. The attached files are called upon for building the required graph.
+
