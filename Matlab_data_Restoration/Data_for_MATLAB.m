@@ -30,7 +30,6 @@ fid2 = fopen('from.txt');
 fr=importdata('from.txt');
 fid3 = fopen('to.txt');
 to=importdata('to.txt');
-Bus=importdata('bus_coor.txt');
 load 'bus_coor1.txt'
 Bus=bus_coor1;
 X=Bus(:,2); Y=Bus(:,3);
@@ -172,13 +171,13 @@ MyXmatrix{k}
 %      end
 % end
 %l = final_lines(any(final_lines,2),:);
-l = final_lines;
-hold on
+%l = final_lines;
+%hold on
 
-for k=1:2520
-    plot([X(l(k,1)) X(l(k,2))],[Y(l(k,1)) Y(l(k,2))],'k');
-    hold on
-end
+%for k=1:2520
+ %   plot([X(l(k,1)) X(l(k,2))],[Y(l(k,1)) Y(l(k,2))],'k');
+  %  hold on
+%end
 %draw=draw(draw~=0);
 % for k=1:2510
 %     plot(l(:,1),l(:,2),'k');
