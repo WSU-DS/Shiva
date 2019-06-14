@@ -40,7 +40,7 @@ for str in SWITCH_MRIDS:
 
 op_sw=Sec.__len__()-np.count_nonzero(Sec)
 cls_sw=Tie.__len__()-np.count_nonzero(Tie)
-print('The switch statuses are')
+print('The switch statuses are:')
 print(op_sw)
 print(cls_sw)
 
